@@ -1,0 +1,17 @@
+git config --global user.name feelj #유저넣기
+git config --global user.email rkdska1024@nate.com #이메일 넣기
+git config --global --list #제대로 들어갔나 확인
+
+git remote add origin https://github.com/feelj/abc.git  #깃허브 주소 복사해서 마스터넣기
+git init   #마스터 등록안될시
+git add (파일명).py #파일 한개 올릴때
+git add (폴더). #통째로
+git commit -m (올릴 레지스트)
+git push origin master 
+git remote -v
+git remote remove origin #주소 삭제
+
+다른사람이 사용하던 컴퓨터에서 깃배쉬 사용할떄는 
+
+제어판 - > 모든 제어판 항목 -> 사용자 계정- > 자격증명관리 - > window자격증명
+-> 일반자격에 깃허브 자격 날리고 새로진행
